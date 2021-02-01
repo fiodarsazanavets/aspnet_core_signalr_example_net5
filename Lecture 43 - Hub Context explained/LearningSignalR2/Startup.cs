@@ -24,7 +24,7 @@ namespace LearningSignalR2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSignalR().AddRedis("localhost:6379");
+            services.AddSignalR().AddRedis("localhost:6380");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

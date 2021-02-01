@@ -23,7 +23,7 @@ namespace LearningSignalR
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSignalR().AddRedis("localhost:6379");
+            services.AddSignalR().AddRedis("localhost:6380");
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAnyGet",
